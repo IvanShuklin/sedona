@@ -104,6 +104,7 @@ body {
 .navigation {
   position: relative;
   display: flex;
+  align-items: flex-start;
 }
 
 .navigation-logo {
@@ -180,7 +181,7 @@ body {
 .user-menu {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
   max-width: 176px;
   margin: 0 20px 0 auto;
@@ -230,8 +231,8 @@ body {
 }
 
 .navigation-button {
-  align-self: center;
   width: 160px;
+  margin-top: 14px;
   background-color: #756157;
   flex-shrink: 0;
 }
@@ -582,7 +583,7 @@ body {
 .page-footer {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   padding: 45px 70px 35px;
 }
 
@@ -615,12 +616,19 @@ body {
   fill: #68a2ca4d;
 }
 
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .phone {
   max-width: 600px;
   font-size: 40px;
   line-height: 40px;
   text-decoration: none;
   color: #000000;
+  white-space: nowrap;
 }
 
 .phone:hover,
@@ -991,8 +999,6 @@ body {
   color: #ffffff4d;
 }
 
-/* ////////////////////////////////////////////////////// */
-/* Каталог */
 .main-inner {
   flex-grow: 1;
 }
