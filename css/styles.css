@@ -644,6 +644,7 @@ body {
 .academy-logo {
   display: flex;
   align-items: center;
+  height: 40px;
 }
 
 .academy-logo:focus {
